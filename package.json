@@ -1,0 +1,30 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "This is a project created by rvaswani",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riteshvaswani/react-learning.git"
+  },
+  "keywords": [],
+  "author": "rvaswani <rvaswani@tracelink.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riteshvaswani/react-learning/issues"
+  },
+  "homepage": "https://github.com/Riteshvaswani/react-learning#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

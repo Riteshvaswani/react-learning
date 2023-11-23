@@ -1,25 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-/**
- *  
- * <div id="parent">
- *  <div id="child">
- *      <h1></h1>
- *  </div>
- * </div>
- * 
- * 
- */
 
+const headingReact = React.createElement("h1", {id: "heading"}, "Hello World from ReactJS!!");
+console.log(headingReact);
 
+const headingJSX = (<h1>
+    Hellow World from JSX
+    </h1>);
+console.log(headingJSX);
 
-const headingReact = React.createElement("h1", {id: "heading"}, "Hello World from ReactJS!");
-const anotherHeading = React.createElement("h2", {id: "heading"}, "Hello World from ReactJS in h2!");
+const Title = function() {
+    return (
+        <h1>This is title Component</h1>
+    );
+}
 
-const child = React.createElement("div", {id: "child"}, [headingReact, anotherHeading])
-const parent = React.createElement("div", {id: "parent"}, child)
+const FunctionalComponent = () => <h1>Inside Functional Component</h1>
+console.log(FunctionalComponent())
+
+const FunctionalComponentBraces = () => {
+    return (<><FunctionalComponent />
+        <Title />
+        <h2>Inside Functional Component Braces</h2></>)
+}
+console.log(FunctionalComponentBraces())
 
 const root = ReactDOM.createRoot(document.getElementById("reactRoot"));
-root.render(parent);
-console.log(parent);
+root.render(headingReact);
+root.render(<FunctionalComponentBraces />);

@@ -1,25 +1,25 @@
 {
-  "name": "react-learning",
+  "name": "namaste-react",
   "version": "1.0.0",
-  "description": "This is a project created by rvaswani",
+  "description": "This is Namaste React by Akshay Saini",
   "scripts": {
-    "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Riteshvaswani/react-learning.git"
+    "url": "git+https://github.com/namastedev/namaste-react.git"
   },
   "keywords": [],
-  "author": "rvaswani <rvaswani@tracelink.com>",
+  "author": "Akshay Saini",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Riteshvaswani/react-learning/issues"
+    "url": "https://github.com/namastedev/namaste-react/issues"
   },
-  "homepage": "https://github.com/Riteshvaswani/react-learning#readme",
+  "homepage": "https://github.com/namastedev/namaste-react#readme",
   "devDependencies": {
-    "parcel": "^2.10.3",
+    "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
   "dependencies": {
